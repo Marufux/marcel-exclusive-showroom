@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #9c94942a;
+}
+
+/* nav bar starts  */
+
+#panda-nav-list {
+    margin-right: 15px;
+}
+
+
+#panda-nav {
+    font-size: 16px;
+    color: #707070;
+}
+
+/* shoes  */
+
+#shadow-right-bottom {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 400px) {
+    .form-control {
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+
+
+    #email {
+        flex-wrap: wrap;
+    }
+
+    #email input {
+        max-width: 200px;
+    }
+}
